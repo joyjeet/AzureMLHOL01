@@ -11,17 +11,17 @@ This contains information and steps for learning about how to use Azure Machine 
 Once you are logged into the Azure Portal you will be within the default “Resource Group” (DataScienceClub_Lab). It is from here that we will begin by adding the necessary resources for creating your own “Machine Learning Studio Workspace” environment to work in for this lab course. If you do not see a screen like the one below choose “Resource Groups” from the left hand navigation bar, you should then see this screen.
 
 
-![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub2.png)
+<img src=“https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub2.png” width=“300” />
  
 
 ### 3.	Create a Storage Account
 * Now we want to create a storage account for your Machine Learning Studio Workspace, from the left hand side navigation bar choose “Storage accounts”:
 
- ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub3.png)
+ <img src=“https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub3.png” width=“300” />
 
 * Now choose the “+ Add” to create a new storage account:
 
-![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub3_1.png)
+<img src=“https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub3_1.png” width=“300” />
 
 * The Storage accounts page is displayed, it is here that we want to only make the following two changes:
 
@@ -31,31 +31,31 @@ Once you are logged into the Azure Portal you will be within the default “Reso
   *	Select the “Review + create” button.
 
 
- ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub3_2.png) 
+ <img src=“https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub3_2.png” width=“300” /> 
 
 
 * Azure now performs a quick validation and once it passes you can select the “Create” button if there are no issues.
 
- ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub3_4.png) 
+ <img src=“https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub3_4.png” width=“300” /> 
 
 
 * Your deployment is now underway, you may now go back to the “Resource Groups” page. The storage account will show up in the right side window pane once it has been created. Note: you should start seeing many other lab users storage account resources being created as well. This is the first of three resources you will be using for your Machine Learning Studio Workspace.
 
-![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub3_5.png)  
+<img src=“https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub3_5.png” width=“300” />  
 
 ### 4.	Create your Machine Learning Studio Workspace
 * Choose “+ Add”
 
-![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub4.png) 
+<img src=“https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub4.png” width=“300” /> 
 
 * Begin typing in “Machine Learning” and then press “enter” a list of resources comes up.
 * Choose the  “Machine Learning Studio Workspace” resource listed.
 
-![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub4_1.png)  
+<img src=“https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub4_1.png” width=“300” />  
 
 * On the next screen select the “Create” button
 
-![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub4_2.png) 
+<img src=“https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub4_2.png” width=“300” /> 
 
 •	Now we are going to make three changes and select the Web service plan on the next screen.
 
@@ -65,49 +65,49 @@ Once you are logged into the Azure Portal you will be within the default “Reso
   
   C.	Web service plan=enteryourcorpcredential and leave the _WorkspacePlan in the naming structure (Example: “robsau_WorkspacePlan”).
 
- ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub4_3.png)
+ <img src=“https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub4_3.png” width=“300” />
 
 D.	Select the “Web service plan pricing tier” and a new menu pops up.
 E.	Choose the “S1 Standard” plan and click on the “Select” button.
 
-![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub4_4.png) 
+<img src=“https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub4_4.png” width=“300” /> 
 
 •	In the next screen select the “Create”.
 
- ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub4_5.png)
+ <img src=“https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub4_5.png” width=“300” />
 
 •	This in turn creates/names the other two resources identified by your corp credentials and you will easily be able to locate these objects from the many other resources in the “DataScienceClub_Lab” Resource Group.
 •	Select “Resource Groups” and go back to the DataScienceClub_Lab resource group.
 
-![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub4_6.png) 
+<img src=“https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub4_6.png” width=“300” /> 
 
 •	You should now be able to find your three “named” resources similar to below. You will see a growing list of resources and this is where naming them with your credentials helps you to find them.
 •	Next you will want to select your resource “yourcorpcredential_Workspace” which opens another screen to allow you to launch the Machine Learning Studio Workspace service that you just created.
 
-![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub4_7.png) 
+<img src=“https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub4_7.png” width=“300” /> 
 
 •	Now select “Launch Machine Learning Studio”
 
-![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub4_8.png) 
+<img src=“https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub4_8.png” width=“300” /> 
 
 •	Click on “Sign In”
 
-![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub4_9.png) 
+<img src=“https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub4_9.png” width=“300” /> 
 
 5.	Upload the lab Dataset into your Machine Learning Studio Workspace
 •	Once you landed on the Machine Learning Studio Workspace page select “DATASETS” and then select “+ New”
 
-![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub5.png) 
+<img src=“https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub5.png” width=“300” /> 
 
 •	On the next page choose “From Local File”
 
- ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub5_1.png)
+ <img src=“https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub5_1.png” width=“300” />
 
 •	Now open up the location to where you saved the course dataset CustomerChurnTrainingSample.csv file and click the checkbox image and upload the file.
 
-![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub5_2.png) 
+<img src=“https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub5_2.png” width=“300” /> 
 
 •	You should now see the course dataset file: CustomerChurnTrainingSample.csv
 •	This concludes the loading of the dataset into the Machine Learning Studio Lab
 
-![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub5_3.png) 
+<img src=“https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub5_3.png” width=“300” />
