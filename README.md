@@ -122,4 +122,25 @@ Fill in the name and other values then choose a pricing tier then click on creat
 
 ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub6_1.png)
 
+Select Launch machine learning studio
+
+![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub6_2.png)
+
+After the workspace is launched, select the new workspace that was created, in this case it is "hollabtest01"
+
+![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub6_3.png)
+
+### 7 Create an experiment
+
+Once in the workspace, click new a the bottom left, then click on blank experiment.
+
+![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub6_4.png)
+
+The blank experiment will looks like the image belew (left) and after we complete the expercise it will look something very similar to that we have on the the right side. 
+
+![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub6_5.png)
+
+First thing we need to do is to add dataset. For this we will import the data that was uploaded to teh blob earlier. 
+
+![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub7_3.png)
 
