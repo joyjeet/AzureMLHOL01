@@ -111,3 +111,10 @@ E.	Choose the “S1 Standard” plan and click on the “Select” button.
 •	This concludes the loading of the dataset into the Machine Learning Studio Lab
 
 ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub5_3.png)
+
+### 6. Create Machine Learning Studio Workspace
+
+In Azure portal click on the plus sign to create a new Azure Machine learning workspace.
+
+![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub6.png)
+
