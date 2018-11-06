@@ -25,7 +25,7 @@ Once you are logged into the Azure Portal you will be within the default “Reso
 
 * The Storage accounts page is displayed, it is here that we want to only make the following two changes:
 
-  *	Storage account name=enteryourcorpcredential (note in the top right of the portal image below shows the 6 character corp credential of which you are logged in with. In my case it’s “robsau”), now add your own 6 char corp credential all lower case nothing else. 
+  *	Storage account name=enteryourcorpcredential (note in the top right of the portal image below shows the credential of which you are logged in with. In my case it’s “robsau”), now add your own 6 char corp credential all lower case nothing else. 
   *	It’s very Important to note why we want you to use your corp credential to name your resources, because everyone in the lab will be creating resources as well and the easiest way to know which ones are yours is by using your corp credentials. Later in the lab you will see why.
   *	The Account kind=Storage (general purpose v1) – by default it has selected general purpose v2, please change this to v1
   *	Select the “Review + create” button.
