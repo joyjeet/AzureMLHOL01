@@ -118,3 +118,8 @@ In Azure portal click on the plus sign to create a new Azure Machine learning wo
 
 ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub6.png)
 
+Fill in the name and other values then choose a pricing tier then click on create. 
+
+![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub6_1.png)
+
+
