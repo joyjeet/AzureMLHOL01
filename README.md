@@ -160,7 +160,7 @@ Add module "Select Columns in Dataset". In this module we can include or exlude 
 
 ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub7_6.png)
 
-Add module "Execute Python Script" 
+Add module "Execute Python Script", then add the below code in the module. 
 
 ````python
 # The script MUST contain a function named azureml_main
@@ -188,8 +188,6 @@ def azureml_main(dataframe1 = None, dataframe2 = None):
         df = df.drop(column_to_encode, axis=1)
         df = df.join(dummies)
     
-    # Return value must be of a sequence of pandas.DataFrame
-    dataframe1 = df
-    return dataframe1,
+    return df,
 
 ````
