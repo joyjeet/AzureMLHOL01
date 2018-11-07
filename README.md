@@ -151,3 +151,11 @@ While the import data is selected, click on launch wizard, then follow the promt
 At this time, you can run the experiment by clicking the run button at the bottom. You can now visualize the data that was loaded by clicking on the node as show in the image below. This will give a quick view of the data that was loaded. 
 
 ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub7_5.png)
+
+Add module "Clean Missing Data" that will replace all missing value with "0"
+Add module "Remove duplicate rows". Select all columns in the "Launch Column Selector" and check the box "Retain first duplicate row"
+Add module "Select Columns in Dataset". In this module we can include or exlude columns that we need for our experiment. For this lab we selected all the columns, then only excluded two columns (year and month).
+
+![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub7_6.png)
+
+
