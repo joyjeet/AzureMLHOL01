@@ -196,4 +196,4 @@ Next, add module "Split Data" to train the module with some of the data and then
 
 Add module "Train Model" then add the machine learning model that we want to use to train this experiment. add another train model and a machine learning model to compare for the best alorithm. 
 
-![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub7_7.png)
+![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub7_8.png)
