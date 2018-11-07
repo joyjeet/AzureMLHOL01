@@ -140,7 +140,14 @@ The blank experiment will looks like the image belew (left) and after we complet
 
 ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub6_5.png)
 
-First thing we need to do is to add dataset. For this we will import the data that was uploaded to teh blob earlier. 
+First we need to do is to add dataset. For this we will import the data that was uploaded to teh blob earlier. 
 
 ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub7_3.png)
 
+While the import data is selected, click on launch wizard, then follow the promt and fill in the required field as shown below.
+
+![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub7_4.png)
+
+At this time, you can run the experiment by clicking the run button at the bottom. You can now visualize the data that was loaded by clicking on the node as show in the image below. This will give a quick view of the data that was loaded. 
+
+![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub7_5.png)
