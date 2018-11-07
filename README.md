@@ -30,6 +30,7 @@ Once you are logged into the Azure Portal you will be within the default “Reso
   *	The Account kind=Storage (general purpose v1) – by default it has selected general purpose v2, please change this to v1
   *	Select the “Review + create” button.
 
+AFter the storage is created, click on the blob then create a container with any name. 
 
  ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub3_2.png) 
 
@@ -126,7 +127,7 @@ First we need to do is to add dataset. For this we will import the data that was
 
 ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub7_3.png)
 
-While the import data is selected, click on launch wizard, then follow the promt and fill in the required field as shown below.
+While the import data is selected, click on launch wizard, then follow the promt and fill in the required field as shown below. All fields should be populated in the dropdowns. storage blob and container should have been created already. Please enter the container that was created earlier in step #3. 
 
 ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub7_4.png)
 
