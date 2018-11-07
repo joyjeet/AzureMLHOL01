@@ -203,3 +203,13 @@ Add module "Score Model" to score the model with trained model and the rest of 3
 Finally, evaluate it with the evaluate model. 
 
 ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub7_9.png)
+
+Visualize and analyse the experiment from evaluate module. 
+
+![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub7_10.png)
+
+### 8. Publish the experiment
+
+Select the best model from the analysis above the created the predictive web service.  
+
+![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub7_11.png)
