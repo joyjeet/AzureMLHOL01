@@ -160,4 +160,47 @@ Add module "Select Columns in Dataset". In this module we can include or exlude 
 
 ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub7_6.png)
 
+Add module "Execute Python Script" 
 
+````python
+# The script MUST contain a function named azureml_main
+# which is the entry point for this module.
+
+# imports up here can be used to 
+import pandas as pd
+
+# The entry point function can contain up to two input arguments:
+#   Param<dataframe1>: a pandas.DataFrame
+#   Param<dataframe2>: a pandas.DataFrame
+def azureml_main(dataframe1 = None, dataframe2 = None):
+
+
+
+    # Execution logic goes here
+    print('Input pandas.DataFrame #1:\r\n\r\n{0}'.format(dataframe1))
+    
+    df= dataframe1
+
+    columns_to_encode = list(df.select_dtypes(include=['category','object']))
+
+    for column_to_encode in columns_to_encode:
+        dummies = pd.get_dummies(df[column_to_encode])
+        one_hot_col_names = []
+        for col_name in list(dummies.columns):
+            one_hot_col_names.append(column_to_encode + '_' + col_name)
+        dummies.columns = one_hot_col_names
+        df = df.drop(column_to_encode, axis=1)
+        df = df.join(dummies)
+    
+    # If a zip file is connected to the third input port is connected,
+    # it is unzipped under ".\Script Bundle". This directory is added
+    # to sys.path. Therefore, if your zip file contains a Python file
+    # mymodule.py you can import it using:
+    # import mymodule
+    
+    # Return value must be of a sequence of pandas.DataFrame
+    
+    dataframe1 = df
+    return dataframe1,
+
+````
