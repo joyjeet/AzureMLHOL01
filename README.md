@@ -213,3 +213,8 @@ Visualize and analyse the experiment from evaluate module.
 Select the best model from the analysis above the created the predictive web service.  
 
 ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub7_11.png)
+
+This will created a web service that can be published using the Deploy Web Service button below. 
+
+![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub7_12.png)
+
