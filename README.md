@@ -94,25 +94,7 @@ E.	Choose the “S1 Standard” plan and click on the “Select” button.
 
 ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub4_9.png) 
 
-5.	Upload the lab Dataset into your Machine Learning Studio Workspace
-•	Once you landed on the Machine Learning Studio Workspace page select “DATASETS” and then select “+ New”
-
-![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub5.png) 
-
-•	On the next page choose “From Local File”
-
- ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub5_1.png)
-
-•	Now open up the location to where you saved the course dataset CustomerChurnTrainingSample.csv file and click the checkbox image and upload the file.
-
-![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub5_2.png) 
-
-•	You should now see the course dataset file: CustomerChurnTrainingSample.csv
-•	This concludes the loading of the dataset into the Machine Learning Studio Lab
-
-![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub5_3.png)
-
-### 6. Create Machine Learning Studio Workspace
+### 5. Create Machine Learning Studio Workspace
 
 In Azure portal click on the plus sign to create a new Azure Machine learning workspace.
 
@@ -130,7 +112,7 @@ After the workspace is launched, select the new workspace that was created, in t
 
 ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub6_3.png)
 
-### 7 Create an experiment
+### 6 Create an experiment
 
 Once in the workspace, click new a the bottom left, then click on blank experiment.
 
@@ -208,7 +190,7 @@ Visualize and analyse the experiment from evaluate module.
 
 ![image](https://github.com/joyjeet/AzureMLHOL01/blob/master/images/DataScienceClub7_10.png)
 
-### 8. Publish the experiment
+### 7. Publish the experiment
 
 Select the best model from the analysis above the created the predictive web service.  
 
